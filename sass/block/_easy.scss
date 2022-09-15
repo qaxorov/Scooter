@@ -1,0 +1,219 @@
+.easy{
+  width: 100%;
+  margin: 150px 0 0 30px;
+display: flex;
+gap: 140px;
+
+  &__title{
+    margin: 190px 0 24px 0;
+    width: 445px;
+height: 96px;
+font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 48px;
+letter-spacing: -2.14286px;
+color: #495567;
+  }
+  &__about{
+    width: 445px;
+height: 100px;
+left: 165px;
+top: 1583px;
+font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+color: #939CAA;
+  }
+  &__about__text{
+    width: 445px;
+height: 100px;
+left: 165px;
+top: 1583px;
+font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+color: #939CAA;
+  }
+  &__about__tekt{
+    width: 445px;
+height: 100px;
+left: 165px;
+top: 1583px;
+font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+color: #939CAA;
+  }
+  &__about::after{
+    content:url("../image/Group\ 32.svg");
+    position: absolute;
+    right: 220px;
+    top:1755px;
+  }
+  &__about::before{
+    content:url("../image/Group\ 13\ Copy.svg");
+    position: absolute;
+    right: 1273px;
+    top: 2168px;
+  }
+  &__about__text::after{
+    content:url("../image/Group\ 32.svg");
+    position: absolute;
+    left:945px;
+    top:2956px;
+
+  }
+  &__link{
+    width: 180px;
+    height: 53px;
+    font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 25px;
+text-align: center;
+color: #FFFFFF;
+background: #FCB72B;
+border:none;
+  }
+  &__link:hover{
+    @include button
+   }
+  &__image__pht{
+    margin: 110px 0 0 20px;
+  gap: 190px;
+  }
+  
+}
+.thursday{
+  margin: 150px 320px 0 0;
+  display: flex;
+  flex-direction: row-reverse;
+  gap:190px;
+}
+
+
+
+
+@media screen and (max-width:768px) {
+  .easy{
+    margin: 0 0 0 110px;
+    flex-direction:column-reverse; 
+  }
+  
+
+  .easy__title{
+    text-align: center;
+    margin: 90px 0 40px 12px;
+    width: 445px;
+height: 96px;
+  }
+  .easy__about__tekt{
+    margin: 40px 0 0 10px;
+    text-align: center;
+  }
+  .easy__link{
+    margin: 0 0 0 150px;
+      width: 180px;
+      height: 53px;
+  }
+  .thursday{
+    margin: 50px 320px 0 100px;
+    display: flex;
+    flex-direction: column-reverse;  
+  }
+  .easy__about{
+    margin: 40px 0 40px 0;
+    text-align: center;
+  }
+.easy__about__tekt{
+  margin: 40px 0 40px 0;
+  text-align: center;
+}
+.easy__about__text{
+  margin: 40px 0 40px 0;
+  text-align: center;
+}
+
+.easy__about::after{
+  content:url("../image/Group\ 32.svg");
+  position: absolute;
+  left: 22px;
+  top:2125px;
+}
+.easy__about::before{
+  content:url("../image/Group\ 13\ Copy.svg");
+  position: absolute;
+  right:439px;
+  top: 2978px;
+}
+.easy__about__text::after{
+  content:url("../image/Group\ 32.svg");
+  position: absolute;
+  left:399px;
+  top:4174px;
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:375px) {
+  .easy{
+    margin: 150px 0 0 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  }
+.easy__link{
+  margin-left: 100px;
+}
+.easy__about{
+  text-align: center;
+}
+  .easy__title{
+    text-align: center;
+    margin: 190px 0 24px 0;
+    width: 445px;
+height: 96px;
+font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 48px;
+letter-spacing: -2.14286px;
+color: #495567;
+  }
+  .thursday{
+    margin: 150px 320px 0 100px;
+    display: flex;
+    flex-direction:column;
+    gap:190px;
+  }
+}

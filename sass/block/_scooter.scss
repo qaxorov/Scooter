@@ -1,0 +1,141 @@
+.scooter{
+  margin: 20px 0 0 0;
+  background-image: url("../image/Bitmap_moto.png");
+  width: 2610px;
+height: 650px;
+background-repeat: no-repeat;
+&__title{
+  padding: 153px 0 0 0;
+  margin: 0px 0 0 165px;
+  width: 500px;
+height: 112px;
+  font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 56px;
+letter-spacing: -2.5px;
+color: #FFFFFF;
+}
+&__about{
+  margin: 150px 0 0 260px;
+  width: 405px;
+height: 100px;
+left: 260px;
+top: 401px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+&__about::before{
+  content:url("../image/Path\ 2.svg");
+  position: absolute;
+top: 420px;
+right: 1258px;
+}
+
+&__about::after{
+  content:url("/image/Group\ 8\ Copy.svg");
+  position: absolute;
+  top: 420px;
+  left: 790px;
+}
+&__btn{
+  margin: 40px 0 0 260px;
+  padding: 14px 39px;
+  font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 25px;
+text-align: center;
+color: #FFFFFF;
+background: #FCB72B;
+border:#FCB72B;
+}
+&__btn:hover{
+  @include button
+ }
+}
+@media screen and (max-width:375px){
+
+.scooter__title{
+  text-align: center;
+  padding: 153px 0 0 0;
+  margin: 0px 0 0 165px;
+  width: 500px;
+height: 112px;
+  font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 56px;
+letter-spacing: -2.5px;
+color: #FFFFFF;
+}
+.scooter__about{
+  text-align: center;
+  margin: 150px 0 0 260px;
+  width: 405px;
+height: 100px;
+left: 260px;
+top: 401px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+.scooter__btn{
+  text-align: center;
+  margin: 40px 0 0 260px;
+  padding: 14px 39px;
+  font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 25px;
+text-align: center;
+color: #FFFFFF;
+background: #FCB72B;
+border:#FCB72B;
+}
+}
+@media screen and (max-width:768px) {
+  .scooter{
+    width: 100%;
+  }
+  .scooter__title{
+    font-weight: 700;
+font-size: 56px;
+line-height: 56px;
+text-align: center;
+letter-spacing: -2.5px;
+color: #FFFFFF;
+}
+.scooter__about{
+  margin: 130px 0 0 97px;
+  width: 573px;
+height: 75px;
+font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+text-align: center;
+color: #FFFFFF;
+}
+.scooter__about::after{
+  content:url("/image/Group\ 8\ Copy.svg");
+  position: absolute;
+  top: 620px;
+  left: 50px;
+}
+.scooter__btn{
+  text-align: center;
+  margin: 40px 0 0 294px;
+  padding: 14px 39px;
+  font-family: 'Space Mono';
+font-style: normal;
+}
+}

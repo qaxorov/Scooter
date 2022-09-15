@@ -1,0 +1,85 @@
+.sign{
+  margin:700px 0  0 0;
+  width: 1440px;
+  height: 300px;
+  background-image:url("/image/uch\ dumalo.png");
+  &__title{
+    width: 415px;
+    text-align: left;
+height: 96px;
+font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 48px;
+letter-spacing: -2.14286px;
+color: #FFFFFF;
+  }
+&__hero{
+  padding: 121px 0 0 1px;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+&__list{
+  display: flex;
+  gap: 20px;
+}
+}
+
+@media screen and (max-width:768px) {
+  .sign{
+    width: 768px;
+  height: 350px;
+  }
+  .sign__hero{
+    margin: 0 0 0px 0;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+  }
+  .sign__title{
+    width: 457px;
+    height: 96px;
+  position: relative;
+    margin: 0px 0 20px 140px;
+text-align: center;
+color: #FFFFFF;
+  }
+  .sign__list{
+ margin:20px 0 0 206px;
+  
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:375px) {
+  .sign{
+    width: 1440px;
+    height: 500px;
+  }
+  
+  .sign__list{
+    margin: 0 0 0 180px;
+    display: flex;
+  }
+ .sign__title{
+  margin:0 0 60px 150px;
+  text-align: center;
+ } 
+ .sign__item{
+ }
+ .sign__hero{
+  flex-direction: column;
+ }
+}
